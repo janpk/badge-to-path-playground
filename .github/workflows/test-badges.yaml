@@ -17,12 +17,44 @@ jobs:
         with:
           java-version: 17
           distribution: temurin
-      - name: Badge To Path
+      - name: 'Style : flat'
         uses: janpk/badge-to-path@main
         with:
           label: Hello
           message: World
-          path: badges/default.svg
+          path: badges/flat.svg
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+      - name: 'Style : flat-square'
+        uses: janpk/badge-to-path@main
+        with:
+          label: Hello
+          message: World
+          style: flat-square
+          path: badges/flat-square.svg
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+      - name: 'Style : for-the-badge'
+        uses: janpk/badge-to-path@main
+        with:
+          label: Hello
+          message: World
+          style: for-the-badge
+          path: badges/forthebadge.svg
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+      - name: 'Style : plastic'
+        uses: janpk/badge-to-path@main
+        with:
+          label: Hello
+          message: World
+          style: plastic
+          path: badges/plastic.svg
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+      - name: 'Style : social'
+        uses: janpk/badge-to-path@main
+        with:
+          label: Hello
+          message: World
+          style: social
+          path: badges/social.svg
           github-token: ${{ secrets.GITHUB_TOKEN }}
       - name: Commit the badge (if it changed)
         if: github.ref == 'refs/heads/main'
