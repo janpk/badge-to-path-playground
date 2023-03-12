@@ -25,7 +25,7 @@ jobs:
           path: badges/flat.svg
           github-token: ${{ secrets.GITHUB_TOKEN }}
       - name: 'Style : flat-square'
-        uses: janpk/badge-to-path@v1.0.0
+        uses: janpk/badge-to-path@v1
         with:
           label: Hello
           message: World
@@ -33,7 +33,7 @@ jobs:
           path: badges/flat-square.svg
           github-token: ${{ secrets.GITHUB_TOKEN }}
       - name: 'Style : for-the-badge'
-        uses: janpk/badge-to-path@main
+        uses: janpk/badge-to-path@v1
         with:
           label: Hello
           message: World
@@ -41,7 +41,7 @@ jobs:
           path: badges/forthebadge.svg
           github-token: ${{ secrets.GITHUB_TOKEN }}
       - name: 'Style : plastic'
-        uses: janpk/badge-to-path@main
+        uses: janpk/badge-to-path@v1
         with:
           label: Hello
           message: World
@@ -49,7 +49,7 @@ jobs:
           path: badges/plastic.svg
           github-token: ${{ secrets.GITHUB_TOKEN }}
       - name: 'Style : social'
-        uses: janpk/badge-to-path@main
+        uses: janpk/badge-to-path@v1
         with:
           label: Hello
           message: World
@@ -58,7 +58,7 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: 'Color : brightgreen'
-        uses: janpk/badge-to-path@main
+        uses: janpk/badge-to-path@v1
         with:
           label: Hello
           message: brightgreen
@@ -66,7 +66,7 @@ jobs:
           path: badges/color-brightgreen.svg
           github-token: ${{ secrets.GITHUB_TOKEN }}
       - name: 'Color : green'
-        uses: janpk/badge-to-path@main
+        uses: janpk/badge-to-path@v1
         with:
           label: Hello
           message: green
@@ -74,7 +74,7 @@ jobs:
           path: badges/color-green.svg
           github-token: ${{ secrets.GITHUB_TOKEN }}
       - name: 'Color : yellow'
-        uses: janpk/badge-to-path@main
+        uses: janpk/badge-to-path@v1
         with:
           label: Hello
           message: yellow
@@ -82,7 +82,7 @@ jobs:
           path: badges/color-yellow.svg
           github-token: ${{ secrets.GITHUB_TOKEN }}
       - name: 'Color : yellowgreen'
-        uses: janpk/badge-to-path@main
+        uses: janpk/badge-to-path@v1
         with:
           label: Hello
           message: yellowgreen
@@ -90,7 +90,7 @@ jobs:
           path: badges/color-yellowgreen.svg
           github-token: ${{ secrets.GITHUB_TOKEN }}
       - name: 'Color : orange'
-        uses: janpk/badge-to-path@main
+        uses: janpk/badge-to-path@v1
         with:
           label: Hello
           message: orange
@@ -98,7 +98,7 @@ jobs:
           path: badges/color-orange.svg
           github-token: ${{ secrets.GITHUB_TOKEN }}
       - name: 'Color : red'
-        uses: janpk/badge-to-path@main
+        uses: janpk/badge-to-path@v1
         with:
           label: Hello
           message: red
@@ -106,7 +106,7 @@ jobs:
           path: badges/color-red.svg
           github-token: ${{ secrets.GITHUB_TOKEN }}
       - name: 'Color : blue'
-        uses: janpk/badge-to-path@main
+        uses: janpk/badge-to-path@v1
         with:
           label: Hello
           message: blue
@@ -114,7 +114,7 @@ jobs:
           path: badges/color-blue.svg
           github-token: ${{ secrets.GITHUB_TOKEN }}
       - name: 'Color : grey'
-        uses: janpk/badge-to-path@main
+        uses: janpk/badge-to-path@v1
         with:
           label: Hello
           message: grey
@@ -122,7 +122,7 @@ jobs:
           path: badges/color-grey.svg
           github-token: ${{ secrets.GITHUB_TOKEN }}
       - name: 'Color : lightgrey'
-        uses: janpk/badge-to-path@main
+        uses: janpk/badge-to-path@v1
         with:
           label: Hello
           message: lightgrey
@@ -130,7 +130,7 @@ jobs:
           path: badges/color-lightgrey.svg
           github-token: ${{ secrets.GITHUB_TOKEN }}
       - name: 'Color : gray'
-        uses: janpk/badge-to-path@main
+        uses: janpk/badge-to-path@v1
         with:
           label: gray
           message: gray
@@ -138,7 +138,7 @@ jobs:
           path: badges/color-gray.svg
           github-token: ${{ secrets.GITHUB_TOKEN }}
       - name: 'Color : lightgray'
-        uses: janpk/badge-to-path@main
+        uses: janpk/badge-to-path@v1
         with:
           label: Hello
           message: lightgray
@@ -146,7 +146,7 @@ jobs:
           path: badges/color-lightgray.svg
           github-token: ${{ secrets.GITHUB_TOKEN }}
       - name: 'Color : critical'
-        uses: janpk/badge-to-path@main
+        uses: janpk/badge-to-path@v1
         with:
           label: Hello
           message: critical
@@ -154,7 +154,7 @@ jobs:
           path: badges/color-critical.svg
           github-token: ${{ secrets.GITHUB_TOKEN }}
       - name: 'Color : important'
-        uses: janpk/badge-to-path@main
+        uses: janpk/badge-to-path@v1
         with:
           label: Hello
           message: important
@@ -162,7 +162,7 @@ jobs:
           path: badges/color-important.svg
           github-token: ${{ secrets.GITHUB_TOKEN }}
       - name: 'Color : success'
-        uses: janpk/badge-to-path@main
+        uses: janpk/badge-to-path@v1
         with:
           label: Hello
           message: success
@@ -170,7 +170,7 @@ jobs:
           path: badges/color-success.svg
           github-token: ${{ secrets.GITHUB_TOKEN }}
       - name: 'Color : informational'
-        uses: janpk/badge-to-path@main
+        uses: janpk/badge-to-path@v1
         with:
           label: Hello
           message: informational
@@ -178,7 +178,7 @@ jobs:
           path: badges/color-informational.svg
           github-token: ${{ secrets.GITHUB_TOKEN }}
       - name: 'Color : inactive'
-        uses: janpk/badge-to-path@main
+        uses: janpk/badge-to-path@v1
         with:
           label: Hello
           message: inactive
@@ -187,7 +187,7 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: 'Color : ff69b4'
-        uses: janpk/badge-to-path@main
+        uses: janpk/badge-to-path@v1
         with:
           label: Hello
           message: ff69b4
@@ -195,7 +195,7 @@ jobs:
           path: badges/color-ff69b4.svg
           github-token: ${{ secrets.GITHUB_TOKEN }}
       - name: 'Color : 9cf'
-        uses: janpk/badge-to-path@main
+        uses: janpk/badge-to-path@v1
         with:
           label: Hello
           message: 9cf
@@ -204,7 +204,7 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: 'Link'
-        uses: janpk/badge-to-path@main
+        uses: janpk/badge-to-path@v1
         with:
           label: Hello
           message: GitHub
@@ -213,7 +213,7 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: 'Logo'
-        uses: janpk/badge-to-path@main
+        uses: janpk/badge-to-path@v1
         with:
           label: Hello
           message: GitHub
@@ -221,7 +221,7 @@ jobs:
           path: badges/githublogo.svg
           github-token: ${{ secrets.GITHUB_TOKEN }}
       - name: 'LogoWidth'
-        uses: janpk/badge-to-path@main
+        uses: janpk/badge-to-path@v1
         with:
           label: Hello
           message: GitHub
@@ -230,7 +230,7 @@ jobs:
           path: badges/githublogowidth.svg
           github-token: ${{ secrets.GITHUB_TOKEN }}
       - name: 'Logo with Link'
-        uses: janpk/badge-to-path@main
+        uses: janpk/badge-to-path@v1
         with:
           label: Hello
           message: GitHub

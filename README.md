@@ -16,7 +16,7 @@
 
 ```yaml
       - name: 'Style : flat'
-        uses: janpk/badge-to-path@main
+        uses: janpk/badge-to-path@v1
         with:
           label: Hello
           message: World
@@ -32,7 +32,7 @@
 
 ````yaml
       - name: 'Style : flat-square'
-        uses: janpk/badge-to-path@main
+        uses: janpk/badge-to-path@v1
         with:
           label: Hello
           message: World
@@ -49,7 +49,7 @@
 
 ````yaml
       - name: 'Style : for-the-badge'
-        uses: janpk/badge-to-path@main
+        uses: janpk/badge-to-path@v1
         with:
           label: Hello
           message: World
@@ -66,7 +66,7 @@
 
 ````yaml
       - name: 'Style : plastic'
-        uses: janpk/badge-to-path@main
+        uses: janpk/badge-to-path@v1
         with:
           label: Hello
           message: World
@@ -84,7 +84,7 @@
 
 `````yaml
       - name: 'Style : social'
-        uses: janpk/badge-to-path@main
+        uses: janpk/badge-to-path@v1
         with:
           label: Hello
           message: World
@@ -113,7 +113,7 @@
 
 ```yaml
       - name: 'Color : brightgreen'
-        uses: janpk/badge-to-path@main
+        uses: janpk/badge-to-path@v1
         with:
           label: Hello
           message: brightgreen
@@ -130,7 +130,7 @@
 
 ```yaml
       - name: 'Color : green'
-        uses: janpk/badge-to-path@main
+        uses: janpk/badge-to-path@v1
         with:
           label: Hello
           message: green
@@ -147,7 +147,7 @@
 
 ```yaml
       - name: 'Color : yellow'
-        uses: janpk/badge-to-path@main
+        uses: janpk/badge-to-path@v1
         with:
           label: Hello
           message: yellow
@@ -164,7 +164,7 @@
 
 ```yaml
       - name: 'Color : yellowgreen'
-        uses: janpk/badge-to-path@main
+        uses: janpk/badge-to-path@v1
         with:
           label: Hello
           message: yellowgreen
@@ -181,7 +181,7 @@
 
 ```yaml
       - name: 'Color : orange'
-        uses: janpk/badge-to-path@main
+        uses: janpk/badge-to-path@v1
         with:
           label: Hello
           message: orange
@@ -198,7 +198,7 @@
 
 ```yaml
       - name: 'Color : red'
-        uses: janpk/badge-to-path@main
+        uses: janpk/badge-to-path@v1
         with:
           label: Hello
           message: red
@@ -215,7 +215,7 @@
 
 ```yaml
       - name: 'Color : blue'
-        uses: janpk/badge-to-path@main
+        uses: janpk/badge-to-path@v1
         with:
           label: Hello
           message: blue
@@ -232,7 +232,7 @@
 
 ```yaml
       - name: 'Color : grey'
-        uses: janpk/badge-to-path@main
+        uses: janpk/badge-to-path@v1
         with:
           label: Hello
           message: grey
@@ -249,7 +249,7 @@
 
 ```yaml
       - name: 'Color : lightgrey'
-        uses: janpk/badge-to-path@main
+        uses: janpk/badge-to-path@v1
         with:
           label: Hello
           message: lightgrey
@@ -266,7 +266,7 @@
 
 ```yaml
       - name: 'Color : gray'
-        uses: janpk/badge-to-path@main
+        uses: janpk/badge-to-path@v1
         with:
           label: gray
           message: gray
@@ -283,7 +283,7 @@
 
 ```yaml
       - name: 'Color : lightgray'
-        uses: janpk/badge-to-path@main
+        uses: janpk/badge-to-path@v1
         with:
           label: Hello
           message: lightgray
@@ -300,7 +300,7 @@
 
 ```yaml
       - name: 'Color : critical'
-        uses: janpk/badge-to-path@main
+        uses: janpk/badge-to-path@v1
         with:
           label: Hello
           message: critical
@@ -317,7 +317,7 @@
 
 ```yaml
       - name: 'Color : important'
-        uses: janpk/badge-to-path@main
+        uses: janpk/badge-to-path@v1
         with:
           label: Hello
           message: important
@@ -334,7 +334,7 @@
 
 ```yaml
       - name: 'Color : success'
-        uses: janpk/badge-to-path@main
+        uses: janpk/badge-to-path@v1
         with:
           label: Hello
           message: success
@@ -351,7 +351,7 @@
 
 ```yaml
       - name: 'Color : informational'
-        uses: janpk/badge-to-path@main
+        uses: janpk/badge-to-path@v1
         with:
           label: Hello
           message: informational
@@ -368,7 +368,7 @@
 
 ```yaml
       - name: 'Color : inactive'
-        uses: janpk/badge-to-path@main
+        uses: janpk/badge-to-path@v1
         with:
           label: Hello
           message: inactive
@@ -395,7 +395,7 @@
 
 ```yaml
       - name: 'Color : ff69b4'
-        uses: janpk/badge-to-path@main
+        uses: janpk/badge-to-path@v1
         with:
           label: Hello
           message: ff69b4
@@ -412,7 +412,7 @@
 
 ```yaml
       - name: 'Color : 9cf'
-        uses: janpk/badge-to-path@main
+        uses: janpk/badge-to-path@v1
         with:
           label: Hello
           message: 9cf
@@ -440,7 +440,7 @@
 
 ```yaml
       - name: 'Link'
-        uses: janpk/badge-to-path@main
+        uses: janpk/badge-to-path@v1
         with:
           label: Hello
           message: GitHub
@@ -457,7 +457,7 @@
 
 ```yaml
       - name: 'Logo'
-        uses: janpk/badge-to-path@main
+        uses: janpk/badge-to-path@v1
         with:
           label: Hello
           message: GitHub
@@ -474,7 +474,7 @@
 
 ```yaml
       - name: 'LogoWidth'
-        uses: janpk/badge-to-path@main
+        uses: janpk/badge-to-path@v1
         with:
           label: Hello
           message: GitHub
@@ -492,7 +492,7 @@
 
 ```yaml
       - name: 'Logo with Link'
-        uses: janpk/badge-to-path@main
+        uses: janpk/badge-to-path@v1
         with:
           label: Hello
           message: GitHub
