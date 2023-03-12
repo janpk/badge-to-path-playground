@@ -100,24 +100,285 @@
 
 ### Example Named Colors
 
-| Color         | Badge                               |
-|---------------|-------------------------------------|
-| brightgreen   | ![](badges/color-brightgreen.svg)   |
-| green         | ![](badges/color-green.svg)         |
-| yellow        | ![](badges/color-yellow.svg)        |
-| yellowgreen   | ![](badges/color-yellowgreen.svg)   |
-| orange        | ![](badges/color-orange.svg)        |
-| red           | ![](badges/color-red.svg)           |
-| blue          | ![](badges/color-blue.svg)          |
-| grey          | ![](badges/color-grey.svg)          |
-| lightgrey     | ![](badges/color-lightgrey.svg)     |
-| gray          | ![](badges/color-gray.svg)          |
-| lightgray     | ![](badges/color-lightgray.svg)     |
-| critical      | ![](badges/color-critical.svg)      |
-| important     | ![](badges/color-important.svg)     |
-| success       | ![](badges/color-success.svg)       |
-| informational | ![](badges/color-informational.svg) |
-| inactive      | ![](badges/color-inactive.svg)      |
+<table>
+<tr>
+ <th>Style</th>
+ <th>Badge</th>
+ <th>Action</th>
+</tr>
+<tr>
+<td>brightgreen</td>
+<td><img src="badges/color-brightgreen.svg" alt=""></td>
+<td>
+
+```yaml
+      - name: 'Color : brightgreen'
+        uses: janpk/badge-to-path@main
+        with:
+          label: Hello
+          message: brightgreen
+          messageColor: brightgreen
+          path: badges/color-brightgreen.svg
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+```
+</td>
+</tr>
+<tr>
+<td>green</td>
+<td><img src="badges/color-green.svg" alt=""></td>
+<td>
+
+```yaml
+      - name: 'Color : green'
+        uses: janpk/badge-to-path@main
+        with:
+          label: Hello
+          message: green
+          messageColor: green
+          path: badges/color-green.svg
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+```
+</td>
+</tr>
+<tr>
+<td>yellow</td>
+<td><img src="badges/color-yellow.svg" alt=""></td>
+<td>
+
+```yaml
+      - name: 'Color : yellow'
+        uses: janpk/badge-to-path@main
+        with:
+          label: Hello
+          message: yellow
+          messageColor: yellow
+          path: badges/color-yellow.svg
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+```
+</td>
+</tr>
+<tr>
+<td>yellowgreen</td>
+<td><img src="badges/color-yellowgreen.svg" alt=""></td>
+<td>
+
+```yaml
+      - name: 'Color : yellowgreen'
+        uses: janpk/badge-to-path@main
+        with:
+          label: Hello
+          message: yellowgreen
+          messageColor: yellowgreen
+          path: badges/color-yellowgreen.svg
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+```
+</td>
+</tr>
+<tr>
+<td>orange</td>
+<td><img src="badges/color-orange.svg" alt=""></td>
+<td>
+
+```yaml
+      - name: 'Color : orange'
+        uses: janpk/badge-to-path@main
+        with:
+          label: Hello
+          message: orange
+          messageColor: orange
+          path: badges/color-orange.svg
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+```
+</td>
+</tr>
+<tr>
+<td>red</td>
+<td><img src="badges/color-red.svg" alt=""></td>
+<td>
+
+```yaml
+      - name: 'Color : red'
+        uses: janpk/badge-to-path@main
+        with:
+          label: Hello
+          message: red
+          messageColor: red
+          path: badges/color-red.svg
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+```
+</td>
+</tr>
+<tr>
+<td>blue</td>
+<td><img src="badges/color-blue.svg" alt=""></td>
+<td>
+
+```yaml
+      - name: 'Color : blue'
+        uses: janpk/badge-to-path@main
+        with:
+          label: Hello
+          message: blue
+          messageColor: blue
+          path: badges/color-blue.svg
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+```
+</td>
+</tr>
+<tr>
+<td>grey</td>
+<td><img src="badges/color-grey.svg" alt=""></td>
+<td>
+
+```yaml
+      - name: 'Color : grey'
+        uses: janpk/badge-to-path@main
+        with:
+          label: Hello
+          message: grey
+          messageColor: grey
+          path: badges/color-grey.svg
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+```
+</td>
+</tr>
+<tr>
+<td>lightgrey</td>
+<td><img src="badges/color-lightgrey.svg" alt=""></td>
+<td>
+
+```yaml
+      - name: 'Color : lightgrey'
+        uses: janpk/badge-to-path@main
+        with:
+          label: Hello
+          message: lightgrey
+          messageColor: lightgrey
+          path: badges/color-lightgrey.svg
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+```
+</td>
+</tr>
+<tr>
+<td>gray</td>
+<td><img src="badges/color-gray.svg" alt=""></td>
+<td>
+
+```yaml
+      - name: 'Color : gray'
+        uses: janpk/badge-to-path@main
+        with:
+          label: gray
+          message: gray
+          messageColor: gray
+          path: badges/color-gray.svg
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+```
+</td>
+</tr>
+<tr>
+<td>lightgray</td>
+<td><img src="badges/color-lightgray.svg" alt=""></td>
+<td>
+
+```yaml
+      - name: 'Color : lightgray'
+        uses: janpk/badge-to-path@main
+        with:
+          label: Hello
+          message: lightgray
+          messageColor: lightgray
+          path: badges/color-lightgray.svg
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+```
+</td>
+</tr>
+<tr>
+<td>critical</td>
+<td><img src="badges/color-critical.svg" alt=""></td>
+<td>
+
+```yaml
+      - name: 'Color : critical'
+        uses: janpk/badge-to-path@main
+        with:
+          label: Hello
+          message: critical
+          messageColor: critical
+          path: badges/color-critical.svg
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+```
+</td>
+</tr>
+<tr>
+<td>important</td>
+<td><img src="badges/color-important.svg" alt=""></td>
+<td>
+
+```yaml
+      - name: 'Color : important'
+        uses: janpk/badge-to-path@main
+        with:
+          label: Hello
+          message: important
+          messageColor: important
+          path: badges/color-important.svg
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+```
+</td>
+</tr>
+<tr>
+<td>success</td>
+<td><img src="badges/color-success.svg" alt=""></td>
+<td>
+
+```yaml
+      - name: 'Color : success'
+        uses: janpk/badge-to-path@main
+        with:
+          label: Hello
+          message: success
+          messageColor: success
+          path: badges/color-success.svg
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+```
+</td>
+</tr>
+<tr>
+<td>informational</td>
+<td><img src="badges/color-informational.svg" alt=""></td>
+<td>
+
+```yaml
+      - name: 'Color : informational'
+        uses: janpk/badge-to-path@main
+        with:
+          label: Hello
+          message: informational
+          messageColor: informational
+          path: badges/color-informational.svg
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+```
+</td>
+</tr>
+<tr>
+<td>inactive</td>
+<td><img src="badges/color-inactive.svg" alt=""></td>
+<td>
+
+```yaml
+      - name: 'Color : inactive'
+        uses: janpk/badge-to-path@main
+        with:
+          label: Hello
+          message: inactive
+          messageColor: inactive
+          path: badges/color-inactive.svg
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+```
+</td>
+</tr>
+</table>
 
 ### Example Hexadecimal Colors
 
