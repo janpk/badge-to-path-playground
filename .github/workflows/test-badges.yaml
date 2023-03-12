@@ -18,14 +18,14 @@ jobs:
           java-version: 17
           distribution: temurin
       - name: 'Style : flat'
-        uses: janpk/badge-to-path@main
+        uses: janpk/badge-to-path@v1
         with:
           label: Hello
           message: World
           path: badges/flat.svg
           github-token: ${{ secrets.GITHUB_TOKEN }}
       - name: 'Style : flat-square'
-        uses: janpk/badge-to-path@main
+        uses: janpk/badge-to-path@v1.0.0
         with:
           label: Hello
           message: World
