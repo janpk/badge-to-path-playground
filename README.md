@@ -382,7 +382,44 @@
 
 ### Example Hexadecimal Colors
 
-| Color  | Badge                        |
-|--------|------------------------------|
-| ff69b4 | ![](badges/color-ff69b4.svg) |
-| 9cf    | ![](badges/color-9cf.svg)    |
+<table>
+<tr>
+ <th>Style</th>
+ <th>Badge</th>
+ <th>Action</th>
+</tr>
+<tr>
+<td>ff69b4</td>
+<td><img src="badges/color-ff69b4.svg" alt=""></td>
+<td>
+
+````yaml
+      - name: 'Color : ff69b4'
+        uses: janpk/badge-to-path@main
+        with:
+          label: Hello
+          message: ff69b4
+          messageColor: ff69b4
+          path: badges/color-ff69b4.svg
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+````
+</td>
+</tr>
+<tr>
+<td>9cf</td>
+<td><img src="badges/color-9cf.svg" alt=""></td>
+<td>
+
+````yaml
+      - name: 'Color : 9cf'
+        uses: janpk/badge-to-path@main
+        with:
+          label: Hello
+          message: 9cf
+          messageColor: 9cf
+          path: badges/color-9cf.svg
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+````
+</td>
+</tr>
+</table>
