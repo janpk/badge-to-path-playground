@@ -186,6 +186,23 @@ jobs:
           path: badges/color-inactive.svg
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: 'Color : ff69b4'
+        uses: janpk/badge-to-path@main
+        with:
+          label: Hello
+          message: ff69b4
+          messageColor: ff69b4
+          path: badges/color-ff69b4.svg
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+      - name: 'Color : 9cf'
+        uses: janpk/badge-to-path@main
+        with:
+          label: Hello
+          message: 9cf
+          messageColor: 9cf
+          path: badges/color-9cf.svg
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Commit the badge (if it changed)
         if: github.ref == 'refs/heads/main'
         run: |

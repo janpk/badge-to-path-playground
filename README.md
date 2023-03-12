@@ -12,7 +12,7 @@
 
 ## Colors
 
-### Named colors
+### Example Named Colors
 
 | Color         | Badge                               |
 |---------------|-------------------------------------|
@@ -32,3 +32,10 @@
 | success       | ![](badges/color-success.svg)       |
 | informational | ![](badges/color-informational.svg) |
 | inactive      | ![](badges/color-inactive.svg)      |
+
+### Example Hexadecimal Colors
+
+| Color  | Badge                        |
+|--------|------------------------------|
+| ff69b4 | ![](badges/color-ff69b4.svg) |
+| 9cf    | ![](badges/color-9cf.svg)    |
