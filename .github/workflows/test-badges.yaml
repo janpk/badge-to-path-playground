@@ -203,6 +203,42 @@ jobs:
           path: badges/color-9cf.svg
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: 'Link'
+        uses: janpk/badge-to-path@main
+        with:
+          label: Hello
+          message: GitHub
+          link: https://github.com
+          path: badges/githublink.svg
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 'Logo'
+        uses: janpk/badge-to-path@main
+        with:
+          label: Hello
+          message: GitHub
+          logo: github
+          path: badges/githublogo.svg
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+      - name: 'LogoWidth'
+        uses: janpk/badge-to-path@main
+        with:
+          label: Hello
+          message: GitHub
+          logo: github
+          logoWidth: 200
+          path: badges/githublogowidth.svg
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+      - name: 'Logo with Link'
+        uses: janpk/badge-to-path@main
+        with:
+          label: Hello
+          message: GitHub
+          link: https://github.com
+          logo: github
+          path: badges/githublogolink.svg
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Commit the badge (if it changed)
         if: github.ref == 'refs/heads/main'
         run: |

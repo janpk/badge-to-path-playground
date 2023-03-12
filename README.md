@@ -102,7 +102,7 @@
 
 <table>
 <tr>
- <th>Style</th>
+ <th>Color</th>
  <th>Badge</th>
  <th>Action</th>
 </tr>
@@ -384,7 +384,7 @@
 
 <table>
 <tr>
- <th>Style</th>
+ <th>Hex Color</th>
  <th>Badge</th>
  <th>Action</th>
 </tr>
@@ -393,7 +393,7 @@
 <td><img src="badges/color-ff69b4.svg" alt=""></td>
 <td>
 
-````yaml
+```yaml
       - name: 'Color : ff69b4'
         uses: janpk/badge-to-path@main
         with:
@@ -402,7 +402,7 @@
           messageColor: ff69b4
           path: badges/color-ff69b4.svg
           github-token: ${{ secrets.GITHUB_TOKEN }}
-````
+```
 </td>
 </tr>
 <tr>
@@ -410,7 +410,7 @@
 <td><img src="badges/color-9cf.svg" alt=""></td>
 <td>
 
-````yaml
+```yaml
       - name: 'Color : 9cf'
         uses: janpk/badge-to-path@main
         with:
@@ -419,7 +419,88 @@
           messageColor: 9cf
           path: badges/color-9cf.svg
           github-token: ${{ secrets.GITHUB_TOKEN }}
-````
+```
+</td>
+</tr>
+</table>
+
+
+## Example Link & Logo
+
+<table>
+<tr>
+ <th>Type</th>
+ <th>Badge</th>
+ <th>Action</th>
+</tr>
+<tr>
+<td>link</td>
+<td><img src="badges/githublink.svg" alt=""></td>
+<td>
+
+```yaml
+      - name: 'Link'
+        uses: janpk/badge-to-path@main
+        with:
+          label: Hello
+          message: GitHub
+          link: https://github.com
+          path: badges/githublink.svg
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+```
+</td>
+</tr>
+<tr>
+<td>logo</td>
+<td><img src="badges/githublogo.svg" alt=""></td>
+<td>
+
+```yaml
+      - name: 'Logo'
+        uses: janpk/badge-to-path@main
+        with:
+          label: Hello
+          message: GitHub
+          logo: github
+          path: badges/githublogo.svg
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+```
+</td>
+</tr>
+<tr>
+<td>logo,logowidth</td>
+<td><img src="badges/githublogowidth.svg" alt=""></td>
+<td>
+
+```yaml
+      - name: 'LogoWidth'
+        uses: janpk/badge-to-path@main
+        with:
+          label: Hello
+          message: GitHub
+          logo: github
+          logoWidth: 200
+          path: badges/githublogowidth.svg
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+```
+</td>
+</tr>
+<tr>
+<td>logo,link</td>
+<td><img src="badges/githublogolink.svg" alt=""></td>
+<td>
+
+```yaml
+      - name: 'Logo with Link'
+        uses: janpk/badge-to-path@main
+        with:
+          label: Hello
+          message: GitHub
+          link: https://github.com
+          logo: github
+          path: badges/githublogolink.svg
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+```
 </td>
 </tr>
 </table>
