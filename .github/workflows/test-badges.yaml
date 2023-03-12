@@ -56,6 +56,136 @@ jobs:
           style: social
           path: badges/social.svg
           github-token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 'Color : brightgreen'
+        uses: janpk/badge-to-path@main
+        with:
+          label: Hello
+          message: brightgreen
+          messageColor: brightgreen
+          path: badges/color-brightgreen.svg
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+      - name: 'Color : green'
+        uses: janpk/badge-to-path@main
+        with:
+          label: Hello
+          message: green
+          messageColor: green
+          path: badges/color-green.svg
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+      - name: 'Color : yellow'
+        uses: janpk/badge-to-path@main
+        with:
+          label: Hello
+          message: yellow
+          messageColor: yellow
+          path: badges/color-yellow.svg
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+      - name: 'Color : yellowgreen'
+        uses: janpk/badge-to-path@main
+        with:
+          label: Hello
+          message: yellowgreen
+          messageColor: yellowgreen
+          path: badges/color-yellowgreen.svg
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+      - name: 'Color : orange'
+        uses: janpk/badge-to-path@main
+        with:
+          label: Hello
+          message: orange
+          messageColor: orange
+          path: badges/color-orange.svg
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+      - name: 'Color : red'
+        uses: janpk/badge-to-path@main
+        with:
+          label: Hello
+          message: red
+          messageColor: red
+          path: badges/color-red.svg
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+      - name: 'Color : blue'
+        uses: janpk/badge-to-path@main
+        with:
+          label: Hello
+          message: blue
+          messageColor: blue
+          path: badges/color-blue.svg
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+      - name: 'Color : grey'
+        uses: janpk/badge-to-path@main
+        with:
+          label: Hello
+          message: grey
+          messageColor: grey
+          path: badges/color-grey.svg
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+      - name: 'Color : lightgrey'
+        uses: janpk/badge-to-path@main
+        with:
+          label: Hello
+          message: lightgrey
+          messageColor: lightgrey
+          path: badges/color-lightgrey.svg
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+      - name: 'Color : gray'
+        uses: janpk/badge-to-path@main
+        with:
+          label: gray
+          message: gray
+          messageColor: gray
+          path: badges/color-gray.svg
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+      - name: 'Color : lightgray'
+        uses: janpk/badge-to-path@main
+        with:
+          label: Hello
+          message: lightgray
+          messageColor: lightgray
+          path: badges/color-lightgray.svg
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+      - name: 'Color : critical'
+        uses: janpk/badge-to-path@main
+        with:
+          label: Hello
+          message: critical
+          messageColor: critical
+          path: badges/color-critical.svg
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+      - name: 'Color : important'
+        uses: janpk/badge-to-path@main
+        with:
+          label: Hello
+          message: important
+          messageColor: important
+          path: badges/color-important.svg
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+      - name: 'Color : success'
+        uses: janpk/badge-to-path@main
+        with:
+          label: Hello
+          message: success
+          messageColor: success
+          path: badges/color-success.svg
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+      - name: 'Color : informational'
+        uses: janpk/badge-to-path@main
+        with:
+          label: Hello
+          message: informational
+          messageColor: informational
+          path: badges/color-informational.svg
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+      - name: 'Color : inactive'
+        uses: janpk/badge-to-path@main
+        with:
+          label: Hello
+          message: inactive
+          messageColor: inactive
+          path: badges/color-inactive.svg
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Commit the badge (if it changed)
         if: github.ref == 'refs/heads/main'
         run: |

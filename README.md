@@ -9,3 +9,26 @@
 | for-the-badge | ![](badges/forthebadge.svg) |
 | plastic       | ![](badges/plastic.svg)     |
 | social        | ![](badges/social.svg)      |
+
+## Colors
+
+### Named colors
+
+| Color         | Badge                               |
+|---------------|-------------------------------------|
+| brightgreen   | ![](badges/color-brightgreen.svg)   |
+| green         | ![](badges/color-green.svg)         |
+| yellow        | ![](badges/color-yellow.svg)        |
+| yellowgreen   | ![](badges/color-yellowgreen.svg)   |
+| orange        | ![](badges/color-orange.svg)        |
+| red           | ![](badges/color-red.svg)           |
+| blue          | ![](badges/color-blue.svg)          |
+| grey          | ![](badges/color-grey.svg)          |
+| lightgrey     | ![](badges/color-lightgrey.svg)     |
+| gray          | ![](badges/color-gray.svg)          |
+| lightgray     | ![](badges/color-lightgray.svg)     |
+| critical      | ![](badges/color-critical.svg)      |
+| important     | ![](badges/color-important.svg)     |
+| success       | ![](badges/color-success.svg)       |
+| informational | ![](badges/color-informational.svg) |
+| inactive      | ![](badges/color-inactive.svg)      |
