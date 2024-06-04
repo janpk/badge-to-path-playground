@@ -18,8 +18,16 @@ jobs:
           java-version: 21
           distribution: temurin
       - name: 'test'
+        if: github.event_name != 'pull_request' && github.actor != 'dependabot[bot]'
         uses: janpk/md-to-jobsummary@v1
         with:
+          action: jobsummary
           file: ./README.md
           github-token: ${{ secrets.GITHUB_TOKEN }}
-
+      - name: 'test-pr'
+        if: github.event_name == 'pull_request' && github.actor != 'dependabot[bot]'
+        uses: janpk/md-to-jobsummary@v1
+        with:
+          action: pullrequest
+          file: ./README.md
+          github-token: ${{ secrets.GITHUB_TOKEN }}
